@@ -1,6 +1,6 @@
 import streamlit as st
 
-from app import style
+import style
 
 st.set_page_config(
     page_title="Text to One Line Converter - QuickTools",

@@ -2,7 +2,7 @@ import base64
 
 import streamlit as st
 
-from app import style
+import style
 
 st.set_page_config(
     page_title="Base64 Encoding and Decoding Converter - QuickTools",
