@@ -22,6 +22,8 @@ decorator==5.1.1
     # via validators
 entrypoints==0.4
     # via altair
+et-xmlfile==1.1.0
+    # via openpyxl
 gitdb==4.0.10
     # via gitpython
 gitpython==3.1.31
@@ -36,6 +38,8 @@ jinja2==3.1.2
     #   pydeck
 jsonschema==4.17.3
     # via altair
+lxml==4.9.2
+    # via -r requirements.in
 markdown-it-py==2.2.0
     # via rich
 markupsafe==2.1.2
@@ -49,6 +53,8 @@ numpy==1.24.3
     #   pyarrow
     #   pydeck
     #   streamlit
+openpyxl==3.1.2
+    # via -r requirements.in
 packaging==23.1
     # via streamlit
 pandas==2.0.1
@@ -75,8 +81,6 @@ python-dateutil==2.8.2
     #   streamlit
 pytz==2023.3
     # via pandas
-pytz-deprecation-shim==0.1.0.post0
-    # via tzlocal
 requests==2.30.0
     # via streamlit
 rich==13.3.5
@@ -93,15 +97,13 @@ toml==0.10.2
     # via streamlit
 toolz==0.12.0
     # via altair
-tornado==6.3.1
+tornado==6.3.2
     # via streamlit
 typing-extensions==4.5.0
     # via streamlit
 tzdata==2023.3
-    # via
-    #   pandas
-    #   pytz-deprecation-shim
-tzlocal==4.3
+    # via pandas
+tzlocal==5.0
     # via streamlit
 urllib3==2.0.2
     # via requests
